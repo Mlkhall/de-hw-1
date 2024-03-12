@@ -12,5 +12,6 @@ poetry run python -m src.main
 
 
 Результат работы пайплайна:
+
 ![work_result_info.png](work_result_info.png)
 
