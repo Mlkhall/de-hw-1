@@ -1,5 +1,5 @@
+from enum import Enum, StrEnum
 from pathlib import Path
-from enum import StrEnum, Enum
 
 
 class Datasets(StrEnum):
@@ -7,6 +7,6 @@ class Datasets(StrEnum):
 
 
 class DataPaths(Enum):
-    base_dir: Path = Path("data")
-    output_dir: Path = Path("data/output")
+    base: Path = Path("data")
+    output: Path = Path("data/output")
     tsv: Path = Path("data/tsv")

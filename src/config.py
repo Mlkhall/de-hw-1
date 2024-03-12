@@ -1,5 +1,5 @@
-from yarl import URL
 from pydantic_settings import BaseSettings
+from yarl import URL
 
 
 class DataSourceSettings(BaseSettings):
